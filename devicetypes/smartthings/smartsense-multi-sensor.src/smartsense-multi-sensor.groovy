@@ -111,9 +111,8 @@ metadata {
 			state "default", action: "refresh.refresh", icon: "st.secondary.refresh"
 		}
 
-
-		main(["status", "acceleration", "temperature"])
-		details(["status", "acceleration", "temperature", "battery", "refresh"])
+		main(["temperature", "acceleration", "status"])
+		details(["temperature", "acceleration", "status", "battery", "refresh"])
 	}
 }
 
